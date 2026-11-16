@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Et si les cellules fabriquaient leur propre oxygène ?</title>
+<meta name="description" content="Peut-on apprendre à une cellule à produire de l’oxygène pour résister à l’hypoxie ? Photosynthèse, enzymes, génie génétique : une exploration de biologie cellulaire.">
+<meta name="author" content="Haniel Dev">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="hero">
+  <span class="b" style="--x:6%;--s:1.4rem;--d:11s;--l:0s;--y:20%"></span>
+  <span class="b" style="--x:18%;--s:.7rem;--d:8s;--l:2s;--y:55%"></span>
+  <span class="b" style="--x:33%;--s:1.1rem;--d:13s;--l:1s;--y:35%"></span>
+  <span class="b" style="--x:52%;--s:.6rem;--d:9s;--l:4s;--y:70%"></span>
+  <span class="b" style="--x:67%;--s:1.6rem;--d:12s;--l:3s;--y:25%"></span>
+  <span class="b" style="--x:81%;--s:.9rem;--d:10s;--l:6s;--y:60%"></span>
+  <span class="b" style="--x:92%;--s:1.2rem;--d:14s;--l:1.5s;--y:40%"></span>
+  <div class="hero-in">
+    <h1>Et si les cellules fabriquaient leur propre oxygène ?</h1>
+    <p class="lead">Peut-on apprendre à une cellule à produire de l’oxygène, en grande quantité, pour résister à l’hypoxie ? Une exploration de biologie cellulaire, de la photosynthèse au génie génétique.</p>
+    <p class="eq">2 H₂O → O₂ + 4 H⁺ + 4 e⁻</p>
+    <p class="eqn">La réaction qui a rempli notre atmosphère d’oxygène.</p>
+  </div>
+</header>
+
+<main>
+<nav class="toc" aria-label="Sommaire">
+  <strong>Dans cette page</strong>
+  <ol>
+    <li><a href="#hypoxie">L’hypoxie : quand l’oxygène manque</a></li>
+    <li><a href="#idee">L’idée de départ</a></li>
+    <li><a href="#photosynthese">La photosynthèse, le modèle naturel</a></li>
+    <li><a href="#autres">D’autres façons de produire de l’O₂</a></li>
+    <li><a href="#phospholipides">Pourquoi pas à partir des phospholipides ?</a></li>
+    <li><a href="#genie">Modifier les cellules : le génie génétique</a></li>
+    <li><a href="#vivant">Ce que le vivant a déjà essayé</a></li>
+    <li><a href="#pistes">Les autres pistes contre l’hypoxie</a></li>
+    <li><a href="#sources">Références et sites utiles</a></li>
+  </ol>
+</nav>
+
+<section id="hypoxie">
+<h2>L’hypoxie : quand l’oxygène manque</h2>
+<p>L’hypoxie est un manque d’oxygène au niveau des tissus. Elle apparaît en altitude, lors d’un infarctus ou d’un AVC (l’ischémie coupe l’arrivée du sang), dans les anémies, les détresses respiratoires, et au cœur des tumeurs, où les vaisseaux sont désorganisés.</p>
+<p>La raison est simple : dans les mitochondries, l’oxygène est le dernier récepteur d’électrons de la chaîne respiratoire. Sans lui, la chaîne s’arrête et la cellule fabrique très peu d’ATP, sa monnaie d’énergie. Elle se rabat sur la fermentation : environ 2 ATP par glucose, contre une trentaine avec l’oxygène, avec en prime du lactate qui acidifie le milieu.</p>
+<p>Les cellules ont heureusement un système d’alarme. Les facteurs induits par l’hypoxie (HIF) activent des gènes qui favorisent la formation de nouveaux vaisseaux et la production de globules rouges. Leur découverte par William Kaelin, Peter Ratcliffe et Gregg Semenza a été récompensée par le prix Nobel de médecine 2019.</p>
+</section>
+
+<section id="idee">
+<h2>L’idée de départ</h2>
+<p>Imaginons une cellule capable de fabriquer elle-même l’oxygène qui lui manque, à partir de tout ce qui en contient : l’eau, le dioxyde de carbone, le peroxyde d’hydrogène, des nitrites, et même ses propres constituants comme les phospholipides de sa membrane.</p>
+<div class="fact"><strong>Attention à un détail essentiel.</strong> Beaucoup de molécules contiennent des <em>atomes</em> d’oxygène, mais la cellule a besoin de <em>dioxygène</em> (O₂), la molécule gazeuse formée de deux atomes. Les atomes d’oxygène d’une molécule d’eau ou d’un phospholipide sont fortement liés à d’autres atomes : en faire de l’O₂ demande de casser ces liaisons, donc de dépenser de l’énergie.</div>
+<p>Toute la question devient alors : d’où viendrait cette énergie ? La nature a déjà trouvé plusieurs réponses, et la plus spectaculaire est la photosynthèse.</p>
+</section>
+
+<section id="photosynthese">
+<h2>La photosynthèse, le modèle naturel</h2>
+<p>La photosynthèse oxygénique est la seule grande machine biologique qui fabrique de l’O₂ à partir de l’eau. Elle se déroule dans les chloroplastes des plantes et des algues, et dans la membrane des cyanobactéries. Ces bactéries ont commencé à libérer de l’oxygène il y a plus de 2,4 milliards d’années, un épisode appelé la Grande oxydation, qui a transformé l’atmosphère terrestre et rendu possible la respiration.</p>
+<p>Le cœur du mécanisme est le <strong>photosystème II</strong>. Quand la lumière frappe la chlorophylle, un électron est arraché et transmis le long d’une chaîne de transporteurs. Pour remplacer cet électron, un site catalytique appelé <strong>complexe d’évolution de l’oxygène</strong> prend les électrons de l’eau. Ce site est un petit amas de quatre atomes de manganèse et un de calcium, relié à des atomes d’oxygène (Mn₄CaO₅). La structure de ce complexe a été résolue à une résolution de 1,9 Å par l’équipe de Jian-Ren Shen en 2011.</p>
+<p>Il faut quatre photons pour libérer une molécule d’O₂ : le complexe passe par une série d’états (S₀ à S₄) décrite dès 1970 par Bessel Kok et ses collaborateurs. Les électrons et les protons obtenus servent ensuite à fabriquer de l’ATP et du NADPH, qui alimentent le cycle de Calvin, où l’enzyme Rubisco fixe le CO₂ pour construire des sucres.</p>
+<div class="fact"><strong>Une origine surprenante.</strong> Les chloroplastes descendent de cyanobactéries avalées par une cellule ancestrale il y a plus d’un milliard d’années, c’est la théorie de l’endosymbiose, défendue par Lynn Margulis dès 1967. Une cellule « photosynthétique » est donc, au départ, une cellule qui en a hébergé une autre.</div>
+<p>Notre problème est que la photosynthèse a besoin de lumière, de dizaines de protéines et d’un chloroplaste. Aucune cellule humaine ne possède cet équipement.</p>
+</section>
+
+<section id="autres">
+<h2>D’autres façons de produire de l’O₂</h2>
+<ul>
+<li><strong>La catalase.</strong> Cette enzyme, très présente dans les peroxysomes, décompose le peroxyde d’hydrogène en eau et en oxygène : 2 H₂O₂ → 2 H₂O + O₂. Nos cellules en fabriquent déjà, mais comme le H₂O₂ est rare et toxique, l’oxygène obtenu reste minime.</li>
+<li><strong>La chlorite dismutase.</strong> Chez certaines bactéries, cette enzyme transforme le chlorite (ClO₂⁻) en chlorure et en O₂, sans lumière. Le chlorite n’existe pas naturellement dans notre corps et il est toxique.</li>
+<li><strong>Methylomirabilis oxyfera.</strong> Cette bactérie vit sans oxygène extérieur, mais produit elle-même de l’O₂ à partir de l’oxyde nitrique (NO) pour oxyder le méthane, une découverte publiée dans <em>Nature</em> en 2010.</li>
+<li><strong>Nitrosopumilus maritimus.</strong> Cette archée marine a été observée en train de produire de l’oxygène dans le noir, à partir du nitrite, selon une étude parue dans <em>Science</em> en 2022.</li>
+</ul>
+</section>
+
+<section id="phospholipides">
+<h2>Pourquoi pas à partir des phospholipides ?</h2>
+<p>Une molécule comme la phosphatidylcholine porte huit atomes d’oxygène, engagés dans des liaisons phosphate, ester et carbonyle. Les arracher pour former de l’O₂ coûterait plus d’énergie que ce que l’O₂ pourrait en rendre quand la cellule le brûle ensuite : on ne gagne jamais plus d’énergie qu’on en met. Pour que la production soit rentable, il faut une source extérieure, comme la lumière du Soleil.</p>
+<p>Il y a aussi un problème de structure : les phospholipides forment les membranes, donc les démonter pour en tirer de l’oxygène reviendrait à détruire la cellule pour la sauver.</p>
+<div class="note">Les cellules ne peuvent donc pas « créer » de l’oxygène à partir de rien. Elles ne peuvent que le <em>transformer</em>, avec une source d’énergie. Toute piste réaliste cherche cette source : lumière, ou molécules riches en énergie apportées de l’extérieur.</div>
+</section>
+
+<section id="genie">
+<h2>Modifier les cellules : le génie génétique</h2>
+<p>Peut-on, malgré tout, donner cette capacité à des cellules ? Les outils existent. Depuis la découverte de CRISPR-Cas9 par Emmanuelle Charpentier et Jennifer Doudna en 2012, puis son adaptation aux cellules humaines en 2013 par les équipes de Feng Zhang et de George Church, on sait modifier précisément les gènes d’une cellule. Les grandes stratégies envisagées sont les suivantes.</p>
+<div class="tw">
+<table>
+<thead><tr><th>Stratégie</th><th>Principe</th><th>Limite principale</th></tr></thead>
+<tbody>
+<tr><td>Renforcer la catalase</td><td>Produire plus de catalase pour libérer de l’O₂ à partir du H₂O₂</td><td>Le H₂O₂ est rare et toxique, le gain d’oxygène est faible</td></tr>
+<tr><td>Copier la photosynthèse</td><td>Introduire les gènes du photosystème et de la chlorophylle, ou des chloroplastes entiers</td><td>Des dizaines de gènes à coordonner ; la lumière traverse mal les tissus profonds</td></tr>
+<tr><td>Héberger des micro-organismes</td><td>Injecter des cyanobactéries ou des micro-algues qui produisent de l’O₂ à la lumière</td><td>Réaction immunitaire, survie limitée, besoin de lumière</td></tr>
+<tr><td>Emprunter des enzymes de bactéries</td><td>Transférer le gène d’une dismutase (chlorite ou oxyde nitrique)</td><td>Substrats absents ou toxiques ; piste encore très théorique</td></tr>
+</tbody>
+</table>
+</div>
+<p>Des expériences concrètes existent pour la troisième piste. En 2017, l’équipe de Jeffrey Cohen a injecté des cyanobactéries (<em>Synechococcus elongatus</em>) dans le cœur de rats après un infarctus, avec des résultats encourageants sous la lumière. En 2021, l’équipe de Özugur a placé des microalgues vertes dans le cerveau de têtards, où elles ont aidé des neurones privés d’oxygène à garder leur activité. Et dès 2016, Chávez et ses collègues ont imaginé une « thérapie génique photosynthétique » en implantant des algues dans des biomatériaux chez la souris.</p>
+<h3 style="font-family:system-ui,sans-serif;font-size:1.15rem;margin:1.8rem 0 .5rem">Un interrupteur pour ne produire que si nécessaire</h3>
+<p>Produire trop d’oxygène serait dangereux : il forme des espèces réactives qui abîment l’ADN et les protéines. L’idée est donc de placer le gène sous le contrôle d’un promoteur sensible à l’hypoxie, c’est-à-dire une séquence appelée élément de réponse à l’hypoxie (HRE), que les protéines HIF reconnaissent. Le gène ne s’exprime alors que si l’oxygène chute, comme un thermostat. Pour livrer ces gènes, on pourrait utiliser des vecteurs viraux (AAV) ou des nanoparticules lipidiques, comme celles des vaccins à ARN.</p>
+<div class="note">Rien de tout cela n’est un traitement disponible. Il reste à prouver la sécurité, le contrôle de la dose, l’apport d’énergie et les questions éthiques liées à la modification du génome.</div>
+</section>
+
+<section id="vivant">
+<h2>Ce que le vivant a déjà essayé</h2>
+<ul>
+<li><strong>La limace de mer <em>Elysia chlorotica</em></strong> garde dans ses cellules des chloroplastes volés aux algues qu’elle mange, et vit des mois grâce à eux, un phénomène appelé kleptoplastie. Une étude de 2008 (Rumpho et al.) a suggéré un transfert de gènes d’algue vers la limace, mais ce point reste discuté.</li>
+<li><strong>La salamandre tachetée</strong> (<em>Ambystoma maculatum</em>) abrite des algues vertes <em>Oophila amblystomatis</em> jusque dans ses cellules, un cas rare chez un vertébré, étudié par Burns et al. en 2017.</li>
+<li><strong>Le rat-taupe nu</strong> résiste à des minutes sans oxygène. Il ne fabrique pas d’O₂ : son métabolisme bascule vers le fructose, comme l’a montré Thomas Park et son équipe en 2017.</li>
+</ul>
+</section>
+
+<section id="pistes">
+<h2>Les autres pistes contre l’hypoxie</h2>
+<p>En attendant des cellules productrices d’oxygène, d’autres approches sont déjà testées ou utilisées :</p>
+<ul>
+<li><strong>Des biomatériaux libérant de l’oxygène</strong>, à base de peroxydes (par exemple de calcium), pour aider les tissus greffés à survivre avant l’arrivée des vaisseaux.</li>
+<li><strong>Des transporteurs d’oxygène artificiels</strong>, comme les perfluorocarbures ou les hémoglobines modifiées.</li>
+<li><strong>L’oxygénothérapie hyperbare</strong>, qui fait respirer de l’oxygène pur dans un caisson pressurisé.</li>
+<li><strong>Des médicaments qui stabilisent HIF</strong>, comme le roxadustat, utilisé dans plusieurs pays contre l’anémie liée à la maladie rénale chronique.</li>
+</ul>
+<p>Mon avis : l’idée d’une cellule autonome en oxygène n’est pas impossible, mais elle demande de résoudre trois choses à la fois : une source d’énergie, un contrôle fin de la dose, et une intégration sûre dans l’organisme. C’est un très beau terrain pour la biologie de synthèse.</p>
+</section>
+
+<section id="sources">
+<h2>Références et sites utiles</h2>
+<ol class="refs">
+<li>Umena Y., Kawakami K., Shen J.-R., Kamiya N. (2011). Crystal structure of oxygen-evolving photosystem II at a resolution of 1.9 Å. <em>Nature</em>, 473, 55–60.</li>
+<li>Kok B., Forbush B., McGloin M. (1970). Cooperation of charges in photosynthetic O₂ evolution. <em>Photochemistry and Photobiology</em>, 11, 457–475.</li>
+<li>Margulis L. (publiée sous le nom Sagan, 1967). On the origin of mitosing cells. <em>Journal of Theoretical Biology</em>, 14, 225–274.</li>
+<li>Ettwig K.F. et al. (2010). Nitrite-driven anaerobic methane oxidation by oxygenic bacteria. <em>Nature</em>, 464, 543–548.</li>
+<li>Kraft B. et al. (2022). Oxygen and nitrogen production by an ammonia-oxidizing archaeon. <em>Science</em>, 375, 97–100.</li>
+<li>van Ginkel C.G. et al. (1996). Purification and characterization of chlorite dismutase. <em>Archives of Microbiology</em>, 166, 321–326.</li>
+<li>Chelikani P., Fita I., Loewen P.C. (2004). Diversity of structures and properties among catalases. <em>Cellular and Molecular Life Sciences</em>, 61, 192–208.</li>
+<li>Semenza G.L. (2012). Hypoxia-inducible factors in physiology and medicine. <em>Cell</em>, 148, 399–408.</li>
+<li>Jinek M., Chylinski K., Fonfara I., Hauer M., Doudna J.A., Charpentier E. (2012). A programmable dual-RNA-guided DNA endonuclease in adaptive bacterial immunity. <em>Science</em>, 337, 816–821.</li>
+<li>Cong L. et al. (2013). Multiplex genome engineering using CRISPR/Cas systems. <em>Science</em>, 339, 819–823. Et Mali P. et al. (2013), <em>Science</em>, 339, 823–826.</li>
+<li>Cohen J.E. et al. (2017). An innovative biologic system for photon-powered myocardium in the ischemic heart. <em>Science Advances</em>, 3, e1603078.</li>
+<li>Chávez M.N. et al. (2016). Towards autotrophic tissue engineering: photosynthetic gene therapy for regeneration. <em>Biomaterials</em>, 75, 25–36.</li>
+<li>Özugur S. et al. (2021). Green oxygen power plants in the brain rescue neuronal activity. <em>iScience</em>, 24, 103158.</li>
+<li>Rumpho M.E. et al. (2008). Horizontal gene transfer of the algal nuclear gene psbO to the photosynthetic sea slug Elysia chlorotica. <em>PNAS</em>, 105, 17867–17871.</li>
+<li>Burns J.A. et al. (2017). Transcriptome analysis illuminates the nature of the intracellular interaction in a vertebrate-algal symbiosis. <em>eLife</em>, 6, e22054.</li>
+<li>Park T.J. et al. (2017). Fructose-driven glycolysis supports anoxia resistance in the naked mole-rat. <em>Science</em>, 356, 307–311.</li>
+</ol>
+<p class="refs">Sites utiles : <a href="https://www.nobelprize.org/prizes/medicine/2019/summary/">Prix Nobel de médecine 2019 (HIF)</a> · <a href="https://www.nobelprize.org/prizes/chemistry/2020/summary/">Prix Nobel de chimie 2020 (CRISPR)</a> · <a href="https://pubmed.ncbi.nlm.nih.gov/">PubMed</a> · <a href="https://www.rcsb.org/structure/3ARC">Structure du photosystème II (PDB 3ARC)</a>.</p>
+</section>
+</main>
+
+<footer>
+  <strong>Haniel Dev</strong><br>
+  <a href="mailto:rodericktchiakpe@gmail.com">rodericktchiakpe@gmail.com</a>
+</footer>
+</body>
+</html>
